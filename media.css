@@ -1,0 +1,77 @@
+
+@media(max-width: 1400px) {
+    main {
+        padding: 10rem 5rem ;
+        max-width: 51.5625rem;
+    }
+}
+
+
+@media(max-width: 800px) {
+    main {
+        padding: 5rem;
+    }
+
+    #container .card {
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 670px) {
+    main {
+        max-width: 28.215rem;
+        padding: 4.4rem 2rem;
+    }
+
+    #container {
+        grid-template-areas: 
+         'card1'
+         'card2'
+         'card3';
+        border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+    }
+
+    #container .card {
+        padding: 1.5rem;
+    }
+
+    #container .card-1 h2 {
+        font-size: 1.3rem;
+    }
+
+    #container .card-1 h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+     
+    #container .card-1 p {
+        font-size: 0.9rem;
+        line-height: 1.7;
+        margin-bottom: 0.5rem;
+    }
+
+    #container .card-2 {
+        border-radius: 0;
+    }
+
+    #container .card-2 h3 {
+        margin-bottom: 0.4rem;
+    }
+
+    #container .card-2 .btn {
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    #container .card-3 {
+        border-bottom-left-radius: 0.3125rem;
+    }
+
+    #container .card-3 h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    #container .card-3 ul {
+        font-size: 0.85rem;
+    }
+}
