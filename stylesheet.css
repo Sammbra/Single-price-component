@@ -29,16 +29,20 @@ body {
     background-color: var(--light-gray);
 }
 
+main {
+    padding: 10rem 25rem;
+}
+
 #container {
     max-width: 96.875rem;
     margin: 0 auto;
-    padding: 10rem 25rem;
     display: grid;
     grid-template-areas:
      'card1 card1'
      'card2 card3';
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
 }
-
 
 #container .card {
     padding: 2.5rem;
